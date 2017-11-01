@@ -6,14 +6,21 @@ import HomePage from './home';
 import yoHistory from '../common/history';
 
 const List = require.async('./list');
-const Detail = require.async('./detail');
+const Record = require.async('./record');
+const Project = require.async('./project');
+const Mine = require.async('./mine');
+const Home = require.async('./home');
+
 
 const Root = () => (
     <Router history={yoHistory}>
         <Route path="/">
-            <IndexRoute component={HomePage}/>
+            <IndexRoute component={HomePage} />
+            <Route path="home" getComponent={Home} />            
             <Route path="list" getComponent={List} />
-            <Route path="detail" getComponent={Detail}/>
+            <Route path="record" getComponent={Record} />            
+            <Route path="project" getComponent={Project}/>
+            <Route path="mine" getComponent={Mine}/>            
         </Route>
     </Router>
 );

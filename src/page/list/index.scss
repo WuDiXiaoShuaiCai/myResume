@@ -3,9 +3,15 @@
 @import "$yo-config/layout/yo-flex";
 @import "$yo-config/fragment/yo-list";
 
-.m-list {
-    background-color: #eeeeee;
-}
-#list .yo-list > .item{
-    padding:0;
+.yo-list-group{
+	.title{
+		color:#777;
+		font-size:.25rem;
+		margin-left:.2rem;
+	}
+	.detail{
+		font-size:.1rem;
+		margin:.05rem 0 0 .2rem;
+	}
+	img{width:.8rem;height:.7rem;border-radius:50%;}
 }

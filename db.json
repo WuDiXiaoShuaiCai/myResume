@@ -1,6 +1,72 @@
+
 {
-    "posts": [
-      { "id": [{"aa":1},{"aa":2},{"aa":3}],"key":1, "a": "这是cs", "author": "typicode1" },
-      { "id": [{"aa":1},{"aa":2},{"aa":3}],"key":2, "a": "这是cs", "author": "typicode1" }
+	"skill": [
+		{"key":1,"mainTitle":"基础技能","children":[
+			{"key":1,"img":"../../images/skillImages/html5.jpg","title":"web前端规范","detail":"了解web前端基本规范，如es5,es6,c2,c3，以及模块化开发AMD,CMD，commonJS等"},
+			{"key":2,"img":"../../images/skillImages/javascript.png","title":"javascript","detail":"精通原生JS，会使用原生JS封装常用插件,及精通业务功能的开发"},
+			{"key":3,"img":"../../images/skillImages/jq.jpg","title":"jQuery","detail":"熟练使用jQuery及jQuery衍生的各种插件，熟练使用jQueryEasyUI框架，能快速构建出前端页面"}
+		]
+		},
+		{"key":2,"mainTitle":"现代技术","children":[
+			{"key":1,"img":"../../images/skillImages/kuapingtai.jpg","title":"跨平台开发","detail":"擅长PC，微信，移动等不同浏览器不用设备的兼容性以及跨平台性开发"},
+			{"key":2,"img":"../../images/skillImages/vue.png","title":"现代开发框架","detail":"了解现代开发框架，并且能够利用现代开发框架工具如：angular1/2/4、React、vue2，等其他的MVVM的模式，搭建应用"},
+			{"key":3,"img":"../../images/skillImages/element.png","title":"UI框架","detail":"擅长使用一些和功能性框架相结合的UI框架的使用如：iview、element、yo、element-React、React-bootstrap、vue-bootstrap、mui、antd"},
+			{"key":4,"img":"../../images/skillImages/sass.jpg","title":"预编译样式","detail":"熟练使用sass、less等预编译样式程序语言"},
+			{"key":5,"img":"../../images/skillImages/wechar.jpg","title":"微信小程序","detail":"精通微信小程序的开发"}
+            
+        ]
+		},	
+		{"key":3,"mainTitle":"辅助工具","children":[
+			{"key":1,"img":"../../images/skillImages/vscode.png","title":"开发工具","detail":"熟练使用各种开发工具，DW、Hbuild、sublime、vscode、webstorm、atom "},
+			{"key":2,"img":"../../images/skillImages/yarn.jpg","title":"自动化工具","detail":"能够使用前端自动化构建的工具如：gulp、webpack、yarn等"},
+			{"key":3,"img":"../../images/skillImages/git.jpg","title":"版本管理","detail":"使用过代码版本管理的工具如：git、svn"}
+            
+        ]
+		},	
+		{"key":4,"mainTitle":"后台支撑","children":[
+			{"key":1,"img":"../../images/skillImages/nodejs.jpg","title":"Nodejs","detail":"精通原生JS，能用原生JS封装常用插件"}
+		]
+		}		
+	], 
+
+	"mine":[{"img":"../../images/photo.jpg","IDcard":"140427199509281217","native":"山西省长治市","addr":"江干区九和路","university":"井冈山大学","major":"社会工作/商务英语","edu":"本科","type":"web前端","workaddr":"杭州","expect":"10k"}],
+	
+	"experiences":[
+		{"title":"我的大学","show":"./../../images/jgs.jpg","addr1":"江西","addr2":"吉安","university":"井冈山大学","edu":"本科","bachelor1":"商务英语","bachelor2":"社会工作"},
+		{"title":"工作履历","show":"./../../images/company.png","company":"南昌市乐诚网络科技有限公司","type":"民营","addr1":"南昌","addr2":"高新开发区紫阳大道泰豪科技广场"}		
+	],
+
+	"item":[
+        {
+            "company":"紫川软件公司",
+            "itemName":"北京中国移动官网",
+            "img":"../../src/resource/itemImages/yidong.png",
+            "url":"http://www.huawei.com/cn/",
+            "position":"前端应用开发工程师",
+            "mywork":"我的工作是首页模块；以及登录模块；我的工作是首页模块；以及登录模块；我的工作是首页模块；以及登录模块；"
+        },
+        {
+            "company":"紫川软件公司",
+            "itemName":"中国平安官网",
+            "img":"../../src/resource/itemImages/pingan.png",
+            "url":"http://www.pa18.com.cn/",
+            "position":"前端应用开发工程师",
+            "mywork":"我的工作是首页模块；以及登录模块；我的工作是首页模块；以及登录模块；我的工作是首页模块；以及登录模块；"
+        },{
+            "company":"紫川软件公司",
+            "itemName":"中兴通讯股份有限官网",
+            "img":"../../src/resource/itemImages/zhongxing.png",
+            "url":"http://www.zte.com.cn/china/",
+            "position":"前端应用开发工程师",
+            "mywork":"我的工作是首页模块；以及登录模块；我的工作是首页模块；以及登录模块；我的工作是首页模块；以及登录模块；"
+        }
+        ,{
+            "company":"紫川软件公司",
+            "itemName":"中国民航航空管理局",
+            "img":"../../src/resource/itemImages/minghang.png",
+            "url":"http://xn.caac.gov.cn/",
+            "position":"前端应用开发工程师",
+            "mywork":"我的工作是首页模块；以及登录模块；我的工作是首页模块；以及登录模块；我的工作是首页模块；以及登录模块；"
+        }
     ]
-  }
+}
